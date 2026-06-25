@@ -1,0 +1,26 @@
+name: flutter_smart_form
+description: "ML-powered smart form fields for Flutter with auto-validation, auto-formatting, and typo detection. Supports email, phone, credit card, URL, and custom fields."
+version: 1.0.0
+homepage: https://github.com/modexanderson/flutter_smart_form
+repository: https://github.com/modexanderson/flutter_smart_form
+issue_tracker: https://github.com/modexanderson/flutter_smart_form/issues
+
+topics:
+  - form
+  - validation
+  - input
+  - formatting
+  - widgets
+
+environment:
+  sdk: ^3.10.7
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
