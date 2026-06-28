@@ -5,7 +5,7 @@
 /// formatters, and a [SmartFormController] for programmatic control.
 ///
 /// ```dart
-/// import 'package:flutter_smart_form/flutter_smart_form.dart';
+/// import 'package:formwise/formwise.dart';
 ///
 /// SmartTextFormField(
 ///   name: 'email',

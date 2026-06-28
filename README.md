@@ -1,9 +1,9 @@
-# flutter_smart_form
+# formwise
 
 Smart form fields for Flutter with built-in validation, auto-formatting, typo detection, and animated error feedback.
 
-[![CI](https://github.com/modexanderson/flutter_smart_form/actions/workflows/ci.yml/badge.svg)](https://github.com/modexanderson/flutter_smart_form/actions)
-[![pub package](https://img.shields.io/pub/v/flutter_smart_form.svg)](https://pub.dev/packages/flutter_smart_form)
+[![CI](https://github.com/modexanderson/formwise/actions/workflows/ci.yml/badge.svg)](https://github.com/modexanderson/formwise/actions)
+[![pub package](https://img.shields.io/pub/v/formwise.svg)](https://pub.dev/packages/formwise)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
@@ -18,11 +18,11 @@ Smart form fields for Flutter with built-in validation, auto-formatting, typo de
 
 ```yaml
 dependencies:
-  flutter_smart_form: ^1.0.0
+  formwise: ^1.0.0
 ```
 
 ```bash
-flutter pub add flutter_smart_form
+flutter pub add formwise
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ flutter pub add flutter_smart_form
 ### Basic Email Field with Typo Detection
 
 ```dart
-import 'package:flutter_smart_form/flutter_smart_form.dart';
+import 'package:formwise/formwise.dart';
 
 SmartTextFormField(
   name: 'email',

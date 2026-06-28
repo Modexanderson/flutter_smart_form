@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_smart_form/flutter_smart_form.dart';
+import 'package:formwise/formwise.dart';
 
 void main() {
   group('SmartValidators', () {
